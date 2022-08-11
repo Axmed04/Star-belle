@@ -1,0 +1,67 @@
+.logo {
+  height: 40px;
+}
+
+.nav-backcol {
+  background-color: #fff;
+}
+
+.nav-link {
+  color: #231E41;
+}
+.nav-link:hover {
+  color: gold;
+}
+
+.cook {
+  font-size: 60px;
+  color: #231E41;
+  font-weight: 600;
+}
+
+.bt-br-no {
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #231E41;
+  font-weight: 600;
+}
+
+.most-popular .popular-item:hover .popular-img img {
+  transform: scale(1.1);
+}
+.most-popular .popular-item .popular-img {
+  position: relative;
+  overflow: hidden;
+}
+.most-popular .popular-item .popular-img img {
+  transition: 0.4s ease-in-out;
+}
+.most-popular .popular-item .popular-img span {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: seagreen;
+  padding: 3px 8px;
+  color: #fff;
+}
+.most-popular .popular-item .popular-head {
+  background: #eee;
+  padding-left: 15px;
+}
+.most-popular .popular-item .popular-head span {
+  background: goldenrod;
+  color: #fff;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.most-popular .popular-item p {
+  margin: 15px 0;
+}
+.most-popular .popular-item .rating {
+  color: gold;
+}/*# sourceMappingURL=style.css.map */
