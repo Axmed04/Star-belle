@@ -30,6 +30,67 @@ a {
   font-weight: 600;
 }
 
+ul li {
+  list-style-type: none;
+}
+
+.sb-features-item .sb-number {
+  min-width: 62px;
+  margin-right: 30px;
+  font-family: "Monoton", cursive;
+  color: #F5C332;
+  font-size: 42px;
+  line-height: 36px;
+}
+
+.sb-mb-30 {
+  margin-bottom: 30px !important;
+}
+
+.expect-img {
+  width: 100%;
+  height: 90%;
+  overflow: hidden;
+  z-index: 2;
+  bottom: 10%;
+  left: 0;
+  box-shadow: 0 6px 8px -6px rgba(0, 0, 0, 0.1);
+}
+
+.expect-img-1 {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom;
+  -webkit-animation: zoom 30s infinite;
+          animation: zoom 30s infinite;
+}
+
+@-webkit-keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .most-popular .popular-item:hover .popular-img img {
   transform: scale(1.1);
 }
