@@ -91,6 +91,28 @@ ul li {
     transform: scale(1);
   }
 }
+.emotions {
+  padding: 40px 0;
+}
+.emotions .emotion-right .emotion-img {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+}
+.emotions .emotion-right .emotion-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  height: 100%;
+  border-radius: 50%;
+}
+
 .most-popular .popular-item:hover .popular-img img {
   transform: scale(1.1);
 }
